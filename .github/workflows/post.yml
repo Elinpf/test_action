@@ -7,4 +7,4 @@ jobs:
     - name: curl
       uses: wei/curl@v1
       with:
-        args: -d 'token=${{ secret.TOKEN_ADDR_1 }}' -X POST http://121.196.175.55:5711
+        args: -d 'token=${{ secrets.TOKEN_ADDR_1 }}' -X POST http://121.196.175.55:5711
